@@ -1,0 +1,26 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual/runtime environments
+.venv/
+.runtime/
+
+# Local env and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit local config/state
+.streamlit/
+
+# Large local model and binary artifacts
+models/*.gguf
+*.whl
+
+# OS/editor temp files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
